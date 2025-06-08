@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: cert-app-prod
-  spec:
-  containers:
-    - name: test-container
-      image: docker pull aarondani/sre-test-image:1.0
-      ports:
-      - containerPort: 3015
+   name: cart-app-pod
+spec:
+ containers:
+  - name: test-container
+    image: docker pull aarondani/sre-test-image:1.0
+    ports:
+     - containerPort: 3015
