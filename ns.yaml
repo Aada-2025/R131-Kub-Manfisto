@@ -1,4 +1,4 @@
 apiVersion: V1
 kind: Namespace
 metadata:
-  name: aaron-nameamespace
+  name: aaron-Namespace

@@ -1,0 +1,11 @@
+pod.yaml
+apiVersion: v1
+kind: pod
+metadata:
+  name:Cert-app-prod
+ spec:
+  containers:
+    -name: test-containers
+    image: aarondani/sre-test-image:1.0
+    ports:
+      -containers:3015
