@@ -7,4 +7,4 @@ metadata:
     - name: test-container
       image: docker pull aarondani/sre-test-image:1.0
       ports:
-      - containers: 3015
+      - containerPort: 3015
