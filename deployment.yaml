@@ -14,7 +14,7 @@ spec: # It define the behavior of the Deployment
     spec:
       containers:
       - name: flower-contianer
-        image: aarondani/sre-test-image
+        image: aarondani/sre-test-image:1.0
         resources:
           limits:
             memory: "500Mi"
