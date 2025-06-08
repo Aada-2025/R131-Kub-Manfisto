@@ -3,7 +3,7 @@ kind: Pod
 metadata:
    name: cart-app-pod
    namespace: aaron-Namespace
-   spec:
+spec:
    containers:
    - name: test-container
      image: aarondani/sre-test-image:1.0
