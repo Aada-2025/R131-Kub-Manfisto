@@ -4,7 +4,7 @@ metadata:
   name: cert-app-prod
   spec:
   containers:
-    - name: test-containers
-      image: aarondani/sre-test-image:1.0
+    - name: test-container
+      image: docker pull aarondani/sre-test-image:1.0
       ports:
       - containers: 3015
